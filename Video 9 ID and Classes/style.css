@@ -1,0 +1,9 @@
+/* target class with - . */
+/* target id  with - # */
+
+.red{
+    background-color: rgb(114, 114, 223);
+}
+#firstdiv{
+    color: brown;
+}

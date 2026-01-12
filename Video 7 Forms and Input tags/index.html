@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms </title>
+</head>
+<body>
+    <h1>Form to apply for ... </h1>
+    <!-- here are two request 
+     GET- is a simple req.. and POST-when we need to give some datathen use post request  -->
+    <form action="post">
+        <div>
+            <!-- input tags  -->
+            <label for="username">Enter Your Username </label>
+            <!-- id is used to uniquely identify  -->
+            <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>
+        </div>
+
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">    
+            <label for="subscribe">subscribe to news letter</label>
+        </div>
+        
+        <div>
+            <label for="comment">Enter your comment here..</label>
+            <textarea name="comment" rows="3" cols="20" id="comment"></textarea>
+        </div>
+        
+        <div>
+            <select name="fruit" id="">
+                <option value="apple">apple</option>
+                <option value="cherry">cherry</option>
+                <option value="banana">banana</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
